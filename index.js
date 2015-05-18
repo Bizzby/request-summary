@@ -118,3 +118,14 @@ exports.token('size', function (req, res) {
   return parseInt(req._received, 10);
 });
 
+/**
+ * SPDY headers
+ */
+
+exports.token('streamID', function(req, res) {
+  return req.streamID;
+});
+
+exports.('spdyVersion', function(req, res) {
+  return req.spdyVersion;
+});

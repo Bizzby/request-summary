@@ -1,7 +1,8 @@
 {
-  "name": "request-summary",
+  "name": "bizzby-request-summary",
   "version": "1.0.0",
-  "dependencies": {
-    "bytes": "0.2.1"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bizzby/request-summary"
+  },
 }

@@ -126,6 +126,6 @@ exports.token('streamID', function(req, res) {
   return req.streamID;
 });
 
-exports.('spdyVersion', function(req, res) {
+exports.token('spdyVersion', function(req, res) {
   return req.spdyVersion;
 });
